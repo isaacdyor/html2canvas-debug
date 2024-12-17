@@ -36,6 +36,10 @@ export default function Home() {
         <h1 className="text-2xl">Hello World</h1>
       </div>
 
+      <div className="mb-4 p-4 bg-blue-100 rounded-lg">
+        <p className="text-xl text-blue-800">Hello world I am mcp</p>
+      </div>
+
       <button
         onClick={captureAndDownload}
         className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
