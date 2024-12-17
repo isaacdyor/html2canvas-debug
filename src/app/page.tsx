@@ -36,12 +36,21 @@ export default function Home() {
         <h1 className="text-2xl">Hello World</h1>
       </div>
 
-      <button
-        onClick={captureAndDownload}
-        className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
-      >
-        Download as Image
-      </button>
+      <div className="flex gap-4">
+        <button
+          onClick={captureAndDownload}
+          className="rounded bg-blue-500 px-4 py-2 text-white hover:bg-blue-600"
+        >
+          Download as Image
+        </button>
+
+        <button
+          onClick={() => alert('Yes you are!')}
+          className="rounded bg-red-500 px-4 py-2 text-white hover:bg-red-600"
+        >
+          man i am so stupid
+        </button>
+      </div>
     </div>
   );
 }
